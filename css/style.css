@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 161, 216); /*body 태그 배경 */
+    color: cornflowerblue; /*글씨 색 */
+    text-shadow: crimson;  /* 글씨 배경 */
+    font-size: 16px; /* 글씨 사이즈 */
+    line-height: 106%; /* 행간 */
+    letter-spacing: -1px; /* 자간 */
+    font-family: 'roboto mono', sans-serif; /* 폰트 */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    margin: 20px auto;
+    width: 300px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    background: skyblue;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background: deepskyblue;
+}
+
+article {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+h1 {
+    font-size: 2em;
+}
+.main {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table {
+    text-align: left;
+    margin: 20px auto;
+}
+td {
+    padding: 3px;
+}
+
+footer {
+    background: darkgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

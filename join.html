@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-
 <html lang="ko">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <head>
-
-    </head>
-    <body>
-        <h1>회원가입</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="join.html">JOIN</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- 컨텐츠 -->
+    <article>
+            <h1>회원가입</h1>
         <form>
-            <table border="1">
+            <table>
                 <tr>
                 <td>아이디</td>
                 <td><input type = "text" placeholder="아이디를 입력하세요" required></td>
@@ -36,12 +48,17 @@
                 </tr>
                 <tr>
                     <td>자기소개</td>
-                    <td><textarea cols="50" rows="5"></textarea></td>
+                    <td><textarea cols="30" rows="5"></textarea></td>
                 </tr>
             </table>
             <input type = "submit" value="작성완료">
             <input type = "reset" value="다시쓰기">
         </form>
-    </body>
+    </article>
 
+    <footer>
+            <address>gsm</address>
+    </footer>
+    
+</body>
 </html>
